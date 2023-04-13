@@ -15,6 +15,7 @@ const Home = () => {
       direction="column"
       gap="20px"
       h="100vh"
+      w={{ base: "90vw", md: "unset" }}
       alignItems="center"
       justify="center"
     >
