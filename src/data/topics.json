@@ -1,0 +1,12 @@
+[
+    {
+        "id": "javascript",
+        "name": "Javascript",
+        "image": "https://codescouts-cdn.azureedge.net/images/1664356627598.png"
+    },
+    {
+        "id": "react",
+        "name": "React JS",
+        "image": "https://codescouts-cdn.azureedge.net/images/1664356644474.png"
+    }
+]

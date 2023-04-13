@@ -1,0 +1,82 @@
+{
+    "id": "javascript",
+    "name": "Javascript",
+    "image": "https://codescouts-cdn.azureedge.net/images/1664356627598.png",
+    "questions": [
+        {
+            "question": "¿Qué es JavaScript?",
+            "answer": "JavaScript es un lenguaje de programación interpretado, orientado a objetos y de alto nivel.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es una variable en JavaScript?",
+            "answer": "Una variable es un contenedor de datos en JavaScript que se puede utilizar para almacenar diferentes tipos de valores, como números, cadenas, booleanos, objetos, etc.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Cuál es la diferencia entre '==' y '==='?",
+            "answer": "'==' compara los valores de dos variables y realiza una conversión de tipo si es necesario, mientras que '===' compara los valores y los tipos de dos variables sin realizar una conversión de tipo.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Cómo agregas un elemento al final de un array?",
+            "answer": "Se puede utilizar el método 'push()' para agregar un elemento al final de un array en JavaScript.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es una función de flecha en JavaScript?",
+            "answer": "Una función de flecha es una forma abreviada de escribir una función en JavaScript que utiliza la sintaxis '() => {}'.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es una promesa en JavaScript?",
+            "answer": "Una promesa es un objeto en JavaScript que representa un valor que puede no estar disponible en ese momento, pero que se resolverá en el futuro.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es la propagación de eventos en JavaScript?",
+            "answer": "La propagación de eventos es un proceso en el que un evento se propaga desde un elemento HTML a sus elementos secundarios.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Cómo se puede manejar una excepción?",
+            "answer": "Se puede utilizar un bloque 'try-catch' para manejar una excepción en JavaScript.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Cómo se puede crear un objeto en JavaScript?",
+            "answer": "Se puede crear un objeto en JavaScript utilizando la sintaxis '{}', también conocida como notación de objeto literal.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué son los closures en JavaScript?",
+            "answer": "Los closures en JavaScript son funciones que tienen acceso a variables fuera de su propio alcance léxico, es decir, pueden acceder a variables de una función superior incluso después de que esa función haya terminado de ejecutarse.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Cómo se puede iterar sobre un objeto?",
+            "answer": "Se puede utilizar un bucle 'for...in' para iterar sobre las propiedades de un objeto en JavaScript.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es una función recursiva en JavaScript?",
+            "answer": "Una función recursiva en JavaScript es una función que se llama a sí misma para resolver un problema, lo que puede ser útil para resolver problemas complejos y repetitivos.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es el método 'bind()' en JavaScript?",
+            "answer": "El método 'bind()' en JavaScript permite vincular una función a un objeto específico, lo que significa que la función siempre se ejecutará en el contexto de ese objeto.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el operador 'spread' en JavaScript?",
+            "answer": "El operador 'spread' en JavaScript es una forma de descomponer elementos de un array o un objeto en partes separadas, lo que puede ser útil para pasar argumentos a una función o fusionar objetos.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Cómo se puede validar un formulario en JavaScript?",
+            "answer": "Se puede utilizar JavaScript para validar un formulario antes de enviarlo al servidor, comprobando que los campos obligatorios estén completos y que los datos ingresados sean válidos.",
+            "difficulty": "Medio"
+        }
+    ]
+}

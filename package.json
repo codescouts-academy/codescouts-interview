@@ -1,0 +1,33 @@
+{
+  "name": "@codescouts/interview",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --mode production ",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy --dir ./dist --prod",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@codescouts/store": "^1.0.3",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.11.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "6",
+    "reactjs-flip-card": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.9",
+    "vite-plugin-html-env": "^1.2.7"
+  }
+}

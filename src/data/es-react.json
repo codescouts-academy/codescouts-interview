@@ -1,0 +1,107 @@
+{
+    "id": "react",
+    "name": "React JS",
+    "image": "https://codescouts-cdn.azureedge.net/images/1664356644474.png",
+    "questions": [
+        {
+            "question": "¿Qué es React JS?",
+            "answer": "React JS es una biblioteca de JavaScript utilizada para construir interfaces de usuario interactivas y dinámicas.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es un componente en React JS?",
+            "answer": "Un componente en React JS es una pieza reutilizable de código que representa una parte de la interfaz de usuario.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es JSX?",
+            "answer": "JSX es una extensión de sintaxis utilizada en React para escribir HTML y JavaScript en el mismo archivo.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Cuál es la diferencia entre props y state?",
+            "answer": "Los props se utilizan para pasar datos de un componente a otro, mientras que el state se utiliza para manejar los datos internos de un componente.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Cómo se puede actualizar el state?",
+            "answer": "El state en React se puede actualizar utilizando el método 'setState()'.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es un ciclo de vida de un componente?",
+            "answer": "El ciclo de vida de un componente en React es la serie de etapas que atraviesa un componente desde su creación hasta su destrucción.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Para que usas la función 'render()'?",
+            "answer": "La función 'render()' en React se utiliza para generar el HTML que se muestra en la pantalla.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué son los eventos en React?",
+            "answer": "Los eventos en React son acciones que ocurren en la interfaz de usuario, como hacer clic en un botón o mover el cursor del ratón.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "Explica 'componentDidMount()'",
+            "answer": "El método 'componentDidMount()' en React se ejecuta después de que un componente se haya montado en el DOM.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "Explica 'shouldComponentUpdate()'",
+            "answer": "El método 'shouldComponentUpdate()' en React se utiliza para determinar si un componente debe actualizarse o no.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es un (Higher Order Component)?",
+            "answer": "Un HOC (Higher Order Component) en React es una función que toma un componente y devuelve un nuevo componente con funcionalidades adicionales.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es React Router?",
+            "answer": "React Router es una biblioteca de enrutamiento utilizada para manejar la navegación en una aplicación de React.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el método 'setState()' en React?",
+            "answer": "El método 'setState()' en React se utiliza para actualizar el estado de un componente.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es un componente de clase en React?",
+            "answer": "Un componente de clase en React es un tipo de componente que se define utilizando la sintaxis de clases de ES6.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es un componente funcional en React?",
+            "answer": "Un componente funcional en React es un tipo de componente que se define utilizando una función en lugar de una clase.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es el Virtual DOM en React?",
+            "answer": "El Virtual DOM en React es una representación virtual del DOM que se utiliza para optimizar el rendimiento y minimizar las actualizaciones en la interfaz de usuario.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué y para que sirve Redux?",
+            "answer": "El patrón de diseño Redux en React es una implementación del patrón Flux que utiliza un store centralizado para manejar el estado de la aplicación.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Para que usas 'componentWillUnmount()'?",
+            "answer": "El método 'componentWillUnmount()' en React se ejecuta antes de que un componente sea desmontado del DOM.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué son los hooks en React?",
+            "answer": "Los hooks en React son funciones especiales que permiten utilizar el estado y otras funcionalidades de React en componentes funcionales.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el hook 'useEffect()' en React?",
+            "answer": "El hook 'useEffect()' en React se utiliza para ejecutar efectos secundarios en un componente, como solicitudes a una API o cambios en el título de la página.",
+            "difficulty": "Medio"
+        }
+    ]
+}
