@@ -10,6 +10,7 @@ import { useSession } from "../../../state/useSession";
 import { useFormattedSeconds } from "../../../services/useFormattedSeconds";
 import { ButtonIcon } from "../../../components/Button";
 import { useColor } from "../../../services/useColor";
+import { EditQuestion } from "./EditQuestion";
 
 export const Commands = () => {
   const textColor = useColor();
@@ -80,6 +81,7 @@ export const Commands = () => {
     >
       <Timer />
       <ButtonIcon onClick={shuffle} tooltip="Aleatorio" as={BsDice3} />
+      <EditQuestion tooltip="Modifica las preguntas" />
       <ButtonIcon onClick={goToTopic} tooltip="Topics" as={BsGrid} />
       <ButtonIcon onClick={finishSession} tooltip="Inicio" as={AiOutlineHome} />
       <ThemeSwitcher />

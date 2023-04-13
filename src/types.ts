@@ -17,4 +17,5 @@ export interface Question {
   question: string;
   answer: string;
   difficulty: string;
+  lines: string;
 }

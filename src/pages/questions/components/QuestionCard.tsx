@@ -23,6 +23,7 @@ import { Question, Topic } from "../../../types";
 import Logo from "../../../assets/logo.png";
 
 import { useColor } from "../../../services/useColor";
+import { EditQuestion } from "./EditQuestion";
 
 export const QuestionCard = ({
   topic,
@@ -59,9 +60,19 @@ export const QuestionCard = ({
                 </Button>
               </PopoverTrigger>
               <Portal>
-                <PopoverContent color={textColor}>
+                <PopoverContent
+                  color={textColor}
+                  onClick={(e) => e.stopPropagation()}
+                >
                   <PopoverHeader pt={4} fontWeight="bold" border="0">
                     Respuesta
+                    <EditQuestion
+                      ml="10px"
+                      tooltip="Edita esta pregunta"
+                      lines={question.lines}
+                      h="17px"
+                      w="17px"
+                    />
                   </PopoverHeader>
                   <PopoverArrow />
                   <PopoverCloseButton />

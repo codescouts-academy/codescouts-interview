@@ -8,5 +8,5 @@ interface QuestionStore {
 
 export const useTopic = create<QuestionStore>((set) => ({
     setTopic: (topic: Topic) => set({ topic })
-})).withPersist("Topic")
+}))
     .build();
