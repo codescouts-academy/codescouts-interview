@@ -1,0 +1,142 @@
+{
+    "id": "python",
+    "name": "Python",
+    "image": "https://codescouts-cdn.azureedge.net/images/1681478702363.png",
+    "questions": [
+        {
+            "question": "¿Python es interpretado o compilado?",
+            "answer": "Python es un lenguaje interpretado, eso quiere decir, que cada instrucción se evalúa al momento de ejecutarse.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es una comprensión de lista?",
+            "answer": "Una comprensión de lista es una forma concisa de crear una lista en Python. Permite definir una lista utilizando una sintaxis más corta y fácil de leer que la sintaxis tradicional de bucle for.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es un decorador?",
+            "answer": "Un decorador en Python es una función que toma otra función como entrada, realiza alguna operación y devuelve una nueva función. Los decoradores se utilizan a menudo para modificar el comportamiento de una función existente sin modificar directamente su código fuente.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es la herencia?",
+            "answer": "La herencia en Python es la capacidad de una clase para heredar atributos y métodos de una clase base. La herencia permite a las clases derivadas extender y modificar el comportamiento de la clase base.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es el polimorfismo?",
+            "answer": "El polimorfismo en Python es la capacidad de un objeto para tomar muchas formas diferentes. El polimorfismo se logra en Python a través de la herencia y la implementación de métodos comunes en diferentes clases.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es el módulo 'os'?",
+            "answer": "El módulo 'os' en Python proporciona una manera de interactuar con el sistema operativo subyacente. Permite al programador acceder a información sobre el sistema operativo, como el directorio de trabajo actual, y realizar operaciones como la creación y eliminación de archivos y directorios.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es una excepción?",
+            "answer": "Una excepción en Python es un evento que interrumpe la ejecución normal del programa debido a un error o una condición inusual. Las excepciones se manejan en Python utilizando la sintaxis 'try...except'.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué son los generadores?",
+            "answer": "Los generadores en Python son una forma de crear iteradores utilizando la sintaxis de una función. Los generadores se utilizan a menudo para trabajar con grandes conjuntos de datos que no caben en la memoria.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el método 'super()'?",
+            "answer": "El método 'super()' en Python se utiliza para llamar a un método en la clase base. Se utiliza a menudo en las clases derivadas para acceder y modificar el comportamiento de la clase base.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el paquete 'numpy'?",
+            "answer": "El paquete 'numpy' en Python es una biblioteca de funciones para trabajar con matrices y matrices multidimensionales. Se utiliza a menudo en la ciencia de datos y el aprendizaje automático.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es la sobrecarga de operadores?",
+            "answer": "La sobrecarga de operadores en Python es la capacidad de una clase para definir su propio comportamiento para un operador determinado. Por ejemplo, una clase puede definir el comportamiento de la suma (+) entre dos objetos de la clase.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Cómo se manejan los argumentos de línea de comandos?",
+            "answer": "Los argumentos de línea de comandos en Python se manejan utilizando el módulo 'argparse'. Este módulo proporciona una forma fácil de definir y analizar argumentos de línea de comandos en Python.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es la recursión?",
+            "answer": "La recursión en Python es una técnica en la que una función se llama a sí misma para resolver un problema. La recursión se utiliza a menudo en algoritmos de búsqueda y ordenación.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el paquete 'pandas'?",
+            "answer": "El paquete 'pandas' en Python es una biblioteca de funciones para trabajar con datos estructurados, como tablas y series de tiempo. Se utiliza a menudo en la ciencia de datos y el análisis estadístico.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es la deserialización?",
+            "answer": "La deserialización en Python es el proceso de convertir datos serializados (como JSON o XML) en objetos Python. La deserialización se realiza utilizando el módulo 'json' o el módulo 'xml'.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es la serialización?",
+            "answer": "La serialización en Python es el proceso de convertir un objeto Python en una representación de datos serializados (como JSON o XML). La serialización se realiza utilizando el módulo 'json' o el módulo 'xml'.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué son las funciones lambda?",
+            "answer": "Las funciones lambda en Python son funciones anónimas que se definen en una sola línea de código. Se utilizan a menudo para funciones simples que se pasan como argumentos a otras funciones.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Cómo se manejan los errores?",
+            "answer": "Los errores en Python se manejan utilizando la sintaxis 'try...except'. El código que puede generar un error se coloca dentro del bloque 'try', y el código que se ejecuta si se produce un error se coloca dentro del bloque 'except'.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué son los métodos mágicos?",
+            "answer": "Los métodos mágicos en Python son métodos especiales que se utilizan para definir el comportamiento de una clase. Los métodos mágicos tienen nombres especiales que comienzan y terminan con doble guión bajo (__).",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es una función generador?",
+            "answer": "Un generador en Python es una función que devuelve un objeto iterable. Los generadores permiten la creación de secuencias de valores que se generan de forma perezosa, es decir, solo se generan cuando se solicitan.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Cómo se manejan los errores en Python utilizando la sintaxis 'with...as'?",
+            "answer": "La sintaxis 'with...as' en Python se utiliza para garantizar que un recurso se libera correctamente después de su uso. Esta sintaxis también puede manejar errores utilizando el método '.__exit__()', que se llama después de que se ejecuta el bloque 'with'.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Cómo se utiliza la reflexión?",
+            "answer": "La reflexión en Python se utiliza para examinar y modificar el comportamiento de un objeto en tiempo de ejecución. Se realiza utilizando las funciones 'getattr()', 'setattr()' y 'hasattr()'.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Cómo se realiza la concurrencia?",
+            "answer": "La concurrencia en Python se realiza utilizando hilos (threads) y procesos. Los hilos permiten la ejecución simultánea de varias tareas dentro de un único proceso, mientras que los procesos permiten la ejecución simultánea de varias tareas en diferentes procesos.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es la sobrecarga de funciones?",
+            "answer": "La sobrecarga de funciones en Python es la capacidad de una función para aceptar diferentes tipos de argumentos. En Python, no es posible definir dos funciones con el mismo nombre pero con diferentes tipos de argumentos. En cambio, la sobrecarga de funciones se logra utilizando argumentos opcionales o valores predeterminados.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Cómo se realiza la paralelización?",
+            "answer": "La paralelización en Python se realiza utilizando bibliotecas como 'multiprocessing' y 'concurrent.futures'. Estas bibliotecas permiten la ejecución simultánea de tareas en diferentes procesos o hilos.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es la recursión de cola?",
+            "answer": "La recursión de cola en Python es una técnica en la que una función se llama a sí misma como la última operación que realiza, lo que permite que la función se optimice utilizando una pila de llamadas reducida. Se realiza utilizando la sintaxis 'return func_name(arguments)' en lugar de 'func_name(arguments)'.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué son los decoradores?",
+            "answer": "Los decoradores en Python son funciones que se utilizan para modificar el comportamiento de otra función. Los decoradores se aplican utilizando la sintaxis '@decorator_name' encima de la definición de la función que se va a modificar.",
+            "difficulty": "Difícil"
+        }
+    ]
+}

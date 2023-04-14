@@ -1,0 +1,132 @@
+{
+    "id": "csharp",
+    "name": "C#",
+    "image": "https://codescouts-cdn.azureedge.net/images/1681477988147.png",
+    "questions": [
+        {
+            "question": "¿Qué es C#?",
+            "answer": "C# es un lenguaje de programación orientado a objetos desarrollado por Microsoft como parte de su plataforma .NET.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué significa el acrónimo 'CLR'?",
+            "answer": "El acrónimo 'CLR' en C# significa 'Common Language Runtime', que es el entorno de tiempo de ejecución que ejecuta el código de .NET.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es una clase?",
+            "answer": "Una clase en C# es una plantilla para crear objetos que contiene datos y métodos que definen el comportamiento de los objetos.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es una interfaz?",
+            "answer": "Una interfaz en C# es una colección de métodos y propiedades que define un contrato que una clase debe implementar.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el polimorfismo?",
+            "answer": "El polimorfismo en C# es la capacidad de los objetos de una clase para asumir muchas formas diferentes.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es una excepción?",
+            "answer": "Una excepción en C# es un objeto que se lanza cuando se produce un error en el código y se utiliza para manejar errores de manera elegante.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es la herencia?",
+            "answer": "La herencia en C# es un mecanismo por el cual una clase hereda las propiedades y los métodos de otra clase.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es el operador '=='?",
+            "answer": "El operador '==' en C# se utiliza para comparar dos objetos o valores y devuelve 'true' si son iguales y 'false' si no lo son.",
+            "difficulty": "Fácil"
+        },
+        {
+            "question": "¿Qué es el operador '?'?",
+            "answer": "El operador '?' en C# se utiliza para indicar que una variable puede ser nula y se utiliza para evitar errores al acceder a propiedades o métodos de un objeto nulo.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué son los delegados?",
+            "answer": "Los delegados en C# son tipos de referencia que se utilizan para encapsular un método con un conjunto específico de parámetros y un tipo de valor de retorno.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Cuál es la diferencia entre una clase y una estructura?",
+            "answer": "Una clase es un tipo de referencia mientras que una estructura es un tipo de valor en C#. Además, las clases admiten la herencia y pueden ser más complejas, mientras que las estructuras son más simples y se utilizan principalmente para almacenar datos.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es la serialización?",
+            "answer": "La serialización en C# es el proceso de convertir un objeto en un formato que se puede almacenar o transmitir, como un archivo XML o JSON. La serialización también permite que el objeto se reconstituya más tarde a partir de este formato.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué son los genéricos?",
+            "answer": "Los genéricos en C# son una característica que permite escribir código que puede trabajar con diferentes tipos de datos sin tener que escribir el mismo código varias veces. Los genéricos se utilizan en colecciones, delegados y otros tipos de clases y métodos.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es el patrón de diseño 'singleton'?",
+            "answer": "El patrón de diseño 'singleton' en C# es un patrón de creación de objetos que garantiza que solo haya una instancia de una clase en todo el programa. Este patrón se utiliza a menudo para objetos que deben ser compartidos entre varias partes del programa.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué son los atributos?",
+            "answer": "Los atributos en C# son metadatos que se pueden agregar a una clase, un método o una propiedad para proporcionar información adicional sobre ellos. Los atributos se utilizan a menudo para anotar código con información para herramientas de compilación o de tiempo de ejecución.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es LINQ?",
+            "answer": "LINQ en C# es un conjunto de extensiones de lenguaje que permite escribir consultas de bases de datos y colecciones de objetos en un lenguaje de consulta similar a SQL. LINQ se utiliza a menudo para simplificar el código y hacerlo más legible.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es la reflexión?",
+            "answer": "La reflexión en C# es la capacidad de un programa para examinar su propia estructura y comportamiento en tiempo de ejecución. La reflexión se utiliza a menudo para implementar herramientas de diagnóstico y pruebas, así como para cargar dinámicamente código en tiempo de ejecución.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué son los eventos?",
+            "answer": "Los eventos en C# son una forma de notificación que permite a una clase informar a otras clases cuando se produce un evento importante. Los eventos se utilizan a menudo para implementar patrones de diseño como el patrón observador.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es la sobrecarga de operadores?",
+            "answer": "La sobrecarga de operadores en C# es la capacidad de definir cómo se comportan los operadores en una clase personalizada. Por ejemplo, se puede definir cómo se suman dos objetos de una clase personalizada.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es la herencia múltiple?",
+            "answer": "La herencia múltiple en C# es la capacidad de una clase para heredar de varias clases diferentes. C# no admite la herencia múltiple de clases, pero permite la herencia múltiple de interfaces.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué son las expresiones lambda?",
+            "answer": "Las expresiones lambda en C# son funciones anónimas que se pueden utilizar en lugar de declarar un método completo. Las expresiones lambda son útiles para escribir código más conciso y legible.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué es el patrón de diseño 'factory'?",
+            "answer": "El patrón de diseño 'factory' en C# es un patrón de creación de objetos que utiliza un método de fábrica para crear objetos en lugar de crearlos directamente en una clase. Este patrón se utiliza a menudo para crear objetos de manera más flexible y mantener el acoplamiento bajo.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es la programación asíncrona?",
+            "answer": "La programación asíncrona en C# es una técnica que permite a una aplicación continuar su ejecución mientras espera una respuesta de una operación de larga duración, como una solicitud de red. La programación asíncrona en C# se realiza con la ayuda de palabras clave como 'async' y 'await'.",
+            "difficulty": "Difícil"
+        },
+        {
+            "question": "¿Qué es el garbage collector?",
+            "answer": "El garbage collector en C# es un componente del entorno de tiempo de ejecución que se encarga de liberar la memoria que ya no se está utilizando por una aplicación. El garbage collector en C# es automático y se encarga de liberar la memoria sin necesidad de que el programador se preocupe por hacerlo manualmente.",
+            "difficulty": "Medio"
+        },
+        {
+            "question": "¿Qué son los métodos de extensión?",
+            "answer": "Los métodos de extensión en C# son una característica que permite agregar métodos a clases existentes sin necesidad de modificar la definición de la clase. Los métodos de extensión se utilizan a menudo para agregar funcionalidad a tipos de datos básicos como cadenas y matrices.",
+            "difficulty": "Medio"
+        }
+    ]
+}
