@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTopic } from "../state/useTopic";
 import { useParams } from "react-router-dom";
-import { useShuffle } from "./useSuffle";
 import { Topic } from "../types";
 
 const START_QUESTIONS_IN_FILE = 6;
@@ -9,7 +8,6 @@ export const useQuestionsLoader = () => {
   const [loaded, setLoaded] = useState(false);
   const { topic, setTopic } = useTopic();
   const { languageId, topicId } = useParams();
-  const { shuffleArray } = useShuffle();
 
   const processLines = (data: Topic) => {
     let lastLineProcessed = START_QUESTIONS_IN_FILE;
@@ -32,15 +30,6 @@ export const useQuestionsLoader = () => {
     return topic;
   }
 
-  const saveShuffle = (topic: Topic) => {
-    const shuffled = shuffleArray(topic.questions)
-
-    setTopic({
-      ...topic,
-      questions: shuffled
-    })
-  }
-
   const load = async () => {
     if (topic?.id === topicId) {
       setLoaded(true);
@@ -57,7 +46,7 @@ export const useQuestionsLoader = () => {
 
       const topic = processLines(response.default)
 
-      saveShuffle(topic);
+      setTopic(topic);
     } catch (error) {
       throw error;
     }
@@ -66,15 +55,9 @@ export const useQuestionsLoader = () => {
     }
   };
 
-  const shuffle = () => {
-    if (!topic) return;
-
-    saveShuffle(topic);
-  }
-
   useEffect(() => {
     load();
   }, []);
 
-  return { loaded, topic: topic as Topic, shuffle };
+  return { loaded, topic: topic as Topic };
 };

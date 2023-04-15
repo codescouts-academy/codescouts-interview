@@ -5,14 +5,13 @@ import { BsDice3, BsGrid, BsPlay } from "react-icons/bs";
 
 import { ThemeSwitcher } from "../../../components/ToggleTheme";
 
-import { useQuestionsLoader } from "../../../services/useQuestionLoader";
 import { useSession } from "../../../state/useSession";
 import { useFormattedSeconds } from "../../../services/useFormattedSeconds";
 import { ButtonIcon } from "../../../components/Button";
 import { useColor } from "../../../services/useColor";
 import { EditQuestion } from "./EditQuestion";
 
-export const Commands = () => {
+export const Commands = ({ shuffle }: { shuffle: Function }) => {
   const textColor = useColor();
 
   const menuBg = useColorModeValue("white", "navy.800");
@@ -23,7 +22,6 @@ export const Commands = () => {
   const navigate = useNavigate();
   const format = useFormattedSeconds();
   const { session, start, pause, stop } = useSession();
-  const { shuffle } = useQuestionsLoader();
 
   const goToTopic = () => {
     navigate("/topics");
@@ -80,7 +78,7 @@ export const Commands = () => {
       boxShadow={shadow}
     >
       <Timer />
-      <ButtonIcon onClick={shuffle} tooltip="Aleatorio" as={BsDice3} />
+      <ButtonIcon onClick={() => shuffle()} tooltip="Aleatorio" as={BsDice3} />
       <EditQuestion tooltip="Modifica las preguntas" />
       <ButtonIcon onClick={goToTopic} tooltip="Topics" as={BsGrid} />
       <ButtonIcon onClick={finishSession} tooltip="Inicio" as={AiOutlineHome} />
